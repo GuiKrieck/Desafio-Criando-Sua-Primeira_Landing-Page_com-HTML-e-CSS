@@ -1,0 +1,125 @@
+@import url(./resetCss.css);
+
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+h2{
+  font-size: 30px;
+  color: rgb(0, 90, 255);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;  
+}
+
+section {
+    margin: 100px auto;
+  }
+/*banner*/
+
+.banner {
+
+    background-image: url(../images/banner.png), linear-gradient(rgb(0,0,0,.6), rgb(0,50,50, .6), rgb(0,0,0,.6));
+    border-width: 0px 0px 3px 0px;
+    border-style: solid;
+    border-color: rgb(0, 90, 255);
+    margin: 5px auto 50px;
+}
+
+.banner-content h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(0, 90, 255);
+    margin: 10px;
+}
+
+.banner-content p{
+    width: 500px;
+    margin: 35px auto 25px auto;
+}
+
+.banner-content button{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin:0 0 50px 0;
+    padding: 15px 40px;
+    color: rgb(0, 90, 255);
+    background-color: transparent;
+    border: solid;
+}
+
+/* Main */
+
+#course-content p{
+    width: 700px;
+    margin: 5px auto 30px auto;
+}
+
+#course-content .modules-list .module{
+    width: 650px;
+    background-color: rgb(53, 51, 51, .8);
+    margin: 0 auto 20px;
+    padding: 15px;
+    border: 2px solid rgb(0, 90, 255);
+    border-radius: 100px;
+    box-shadow: inset 5px 5px 5px rgb(255,255,255, .2);
+}
+
+#course-content .modules-list .module span{
+    color: rgb(0, 90, 200);
+    font-size: larger;
+}
+
+/* Transform-World */
+#transform-world{    
+    width: auto;
+    height: 600px;
+    background-image: url(../images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-width: 2px 0;
+    border-style: solid;
+    color: rgb(0,90,255);
+}
+
+#transform-world p {    
+    width: 220px;
+    padding: 250px 500px 250px 100px;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    text-shadow: 2px 2px rgb(0,90,255)
+}
+
+/* professional-challenges */
+
+#professional-challenges img{
+    margin: 0 auto 50px;
+}
+
+#professional-challenges p{
+    width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+/*footer*/
+footer {
+    padding: 50px 0;
+    background-image: linear-gradient(rgb(0,0,0), rgb(0,50,50));
+    border-top: 2px solid rgb(0,90,255);
+}
+
+footer a{
+    color: rgb(90, 90, 150);
+    font-weight: 500;
+    text-decoration: none;
+}
